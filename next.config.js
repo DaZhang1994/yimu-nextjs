@@ -3,7 +3,7 @@ const { withPlugins } = require("next-compose-plugins");
 
 const nextConfig = {
   env: {
-    API_URL: "https://yimu-nextjs-api.vercel.app/graphql",
+    API_URL: "https://yimu-nextjs-api.vercel.app/server.js",
   },
 
   // if you want to run with local graphQl un-comment below one and comment the above code

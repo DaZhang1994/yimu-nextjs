@@ -4,7 +4,7 @@ module.exports = {
       compress: true,
       proxy: {
         '/graphql': {
-          target: 'https://yimu-nextjs-api.vercel.app/graphql',
+          target: 'https://yimu-nextjs-api.vercel.app/server.js',
           secure: false,
         },
       },
